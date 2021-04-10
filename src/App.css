@@ -1,0 +1,12 @@
+#wrapper{
+  width: 85%;
+  margin: 0 auto;
+  
+}
+.blur_wrap{
+  margin: 0 13%;
+  backdrop-filter:blur(30px);
+}
+.App{
+  background-image: url(./Banner//img/sprite.png);
+}

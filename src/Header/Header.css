@@ -1,0 +1,160 @@
+.header__wrapper{
+    width: 100%;
+    height: 100vh;
+    background:whitesmoke;
+    text-align: center;
+    align-items:center;
+    display: flex;
+}
+.header__general{
+    width: 780px;
+    margin: auto;
+}
+.header__header{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    background-color: #fff;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 3px solid red;
+}
+.header__description{
+    font-size: 24.2px;
+    margin-bottom: 15px;
+    font-family: Microsoft YaHei UI;
+    font-style: normal;
+    font-weight: 345;
+}
+.header__src{
+    width:99.3%;
+    height: 50px;
+    border: 3px solid red;
+    display: flex;
+}
+.header__inp{
+    width: 720px;
+    border: none;
+    outline:none;
+    font-size: 23px;
+}
+.header__inp::placeholder{
+    font-size: 17px;
+    text-align: center;
+    font-family: Microsoft YaHei UI;
+    font-style: normal;
+    font-weight: 290;
+}
+.header__lupa{
+    width: 25px;
+    height: 25px;
+    stroke: #b6b6b6;
+    transition: 0.2s ease;
+}
+.header__lupa:hover{
+    stroke: red;
+    width: 35px;
+    height: 35px;
+    transition: 0.2s ease;
+}
+.header__btn{
+    width: 50px;
+    margin: 0;
+    border: none;
+    background-color: #fff;
+    outline: none;
+    cursor: pointer;
+}
+.header__downBlock{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__leftPoints{
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.header__rightPoints{
+    width: 160px;
+    height: 30px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+.header__rightPoints :hover{
+    width: 160px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header__rightPoints a{
+    text-decoration: none;
+    list-style: none;
+    color: red;
+    margin: auto;
+}
+.header__point{
+    width: 30px;
+    height: 30px;
+}
+.header__heart {
+    fill: white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.header__heart:hover{
+    fill: red;
+}
+.header__corzina{
+    fill: white;
+}
+.header__corzina:hover{
+    fill: red;
+}
+.header__user{
+    float: left;
+    border: none;
+    stroke: red;
+    z-index: 3;
+}
+.header__user:hover{
+    stroke: white; 
+}
+.header__input{
+    width:30px;
+    transition: 0.3s;
+    color: white;
+    position: relative;
+    display: flex;
+}
+.header__input:hover{
+    width: 100px;
+    background-color: red;
+    transition: 0.3s; 
+    position: relative;
+}
+.header__inputText{
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    width: 20px;
+    transition: 0.4s;
+    position: absolute;
+    margin: 3px 0px 0px 0px ;
+    display: none;
+}
+.header__user:hover + .header__inputText{
+    display: inline;
+    margin: 3px 0px 0px 45px;
+    position: absolute;
+}
+.header__input:hover + .header__user{
+    stroke: white;
+}

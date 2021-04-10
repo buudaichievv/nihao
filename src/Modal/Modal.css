@@ -1,0 +1,52 @@
+.modal_wrapper{
+    top: 0;
+    height: 100%;
+    width:100vw;
+    background: rgba(0,0,0,.2);
+    z-index: 50;
+    position:absolute;
+  }
+  .modal_wrapper .open{
+    height: 100%;
+  }
+  .modal_wrapper .close{
+    bottom: 0;
+  }
+  .modal_body{
+    background:white;
+    margin: auto;
+    width: 50%;
+    margin-top: 40%;
+    border-radius: 10px;
+    height: 70vh;
+    min-height: 50vh;
+    overflow-y: scroll;
+    z-index: 55;
+  }
+  
+  .modal_body{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .modal_close{
+    position: absolute;
+    bottom:-10%;
+    right:5%;
+    font-size: 3vw;
+  }
+  .modal_header{
+    background: red;
+    position: relative;
+    height: 70px;
+  }
+  .modal_title{
+    color:white;
+    position: absolute;
+    bottom: 12px;
+    left: 35%;
+    font-size: 2vw;
+  }
+  .carousel_modal{
+    width: 20vw !important;
+    height: 50% !important;
+  }
