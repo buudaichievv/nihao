@@ -18,13 +18,9 @@
     width: 50%;
     margin-top: 40%;
     border-radius: 10px;
-    height: 70vh;
-    min-height: 50vh;
-    overflow-y: scroll;
+    height: 450px;
+    max-height:34%;
     z-index: 55;
-  }
-  
-  .modal_body{
     -ms-overflow-style: none;
     scrollbar-width: none;
   }
@@ -38,6 +34,8 @@
     background: red;
     position: relative;
     height: 70px;
+    min-height: 10%;
+    max-height: 15%;
   }
   .modal_title{
     color:white;

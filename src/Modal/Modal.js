@@ -1,7 +1,8 @@
-import React,{useState,useEffect} from 'react'
+import React from 'react'
 import './Modal.css'
+
+
 export default function Modal(props) {
-    
     return (
         <div className='modal_wrapper' style={props.modal ? {display:'block'} : {display:'none'}}>
             <div className="modal_body">
